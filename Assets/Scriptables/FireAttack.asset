@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024562a314033ed4ba611d172bf51511, type: 3}
+  m_Name: FireAttack
+  m_EditorClassIdentifier: Assembly-CSharp::DragonBattle.Abilities.AbilityData
+  abilityName: Ability
+  type: 0
+  icon: {fileID: 21300000, guid: 32cf63def3300bb4a99dd151ea9a4d42, type: 3}
+  damage: 12
+  cooldown: 8
+  range: 10
+  castTime: 1
+  animationTrigger: FireAttack
+  sfxClip: {fileID: 8300000, guid: a652877b012108e41871f867ada9f176, type: 3}
